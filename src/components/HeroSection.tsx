@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { PartyPopper, Rocket } from "lucide-react";
-import { ElevBrand } from "@/components/ElevBrand";
 
 const LOGO_URL =
   "https://res.cloudinary.com/dnyylurcv/image/upload/v1770233888/bbtntttjzaalbrdb9xrf.png";
@@ -23,16 +22,16 @@ export function HeroSection() {
           <motion.img
             src={LOGO_URL}
             alt="Elev"
-            initial={{ scale: 0, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ delay: 0.1, type: "spring", stiffness: 180 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.1, duration: 0.5 }}
             className="w-20 h-20 md:w-24 md:h-24 mx-auto mb-6 rounded-2xl"
           />
 
           <motion.div
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{ delay: 0.25, type: "tween", duration: 0.3, ease: "easeOut" }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.25, duration: 0.4 }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary mb-6"
           >
             <PartyPopper className="w-4 h-4" />
@@ -40,7 +39,7 @@ export function HeroSection() {
           </motion.div>
 
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-            Bem-vindo ao <ElevBrand />
+            Seja bem-vindo
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
