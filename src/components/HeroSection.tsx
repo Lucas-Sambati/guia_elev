@@ -32,7 +32,7 @@ export function HeroSection() {
           <motion.div
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
-            transition={{ delay: 0.25, type: "spring", stiffness: 200 }}
+            transition={{ delay: 0.25, type: "tween", duration: 0.3, ease: "easeOut" }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary mb-6"
           >
             <PartyPopper className="w-4 h-4" />

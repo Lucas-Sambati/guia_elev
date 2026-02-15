@@ -67,11 +67,11 @@ export function SupportSection() {
               com nosso suporte. Estamos aqui para ajudar!
             </p>
             <a
-              href="mailto:suporte@elevhq.com"
+              href="mailto:suporte.elevhq@gmail.com"
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl gradient-cta text-white font-medium text-sm hover:opacity-90 transition-opacity"
             >
               <Mail className="w-4 h-4" />
-              suporte@elevhq.com
+              suporte.elevhq@gmail.com
             </a>
           </motion.div>
 

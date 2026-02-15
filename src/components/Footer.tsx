@@ -9,7 +9,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <ElevBrand />
-            <span className="text-muted-foreground">·</span>
+            <span className="text-muted-foreground" style={{ color: "#4F46E5" }}>·</span>
             <span className="font-sans text-sm" style={{ color: "#737d7f" }}>
               Eleve seu resultado
             </span>
