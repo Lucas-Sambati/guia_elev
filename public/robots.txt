@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://guia.elevhq.com/sitemap.xml
