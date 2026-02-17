@@ -14,8 +14,8 @@ const steps = [
     title: "Acesse o ELEV",
     description:
       "Abra o navegador do seu celular e acesse o link abaixo:",
-    highlight: "dev.elevhq.com",
-    highlightLink: "https://dev.elevhq.com",
+    highlight: "elevhq.com",
+    highlightLink: "https://elevhq.com",
   },
   {
     icon: Download,

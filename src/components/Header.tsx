@@ -17,7 +17,7 @@ export function Header() {
           <span className="text-xl font-bold text-white">Elev</span>
         </div>
         <a
-          href="https://dev.elevhq.com"
+          href="https://elevhq.com"
           target="_blank"
           rel="noopener noreferrer"
           className="px-4 py-2 rounded-lg gradient-cta text-white text-sm font-semibold hover:opacity-90 transition-opacity"

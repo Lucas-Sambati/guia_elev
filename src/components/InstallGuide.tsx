@@ -61,7 +61,7 @@ const installSteps: Record<Platform, Step[]> = {
       icon: Chrome,
       text: "Abra o Chrome",
       detail:
-        "Recomendamos usar o Google Chrome para melhor compatibilidade. Acesse dev.elevhq.com.",
+        "Recomendamos usar o Google Chrome para melhor compatibilidade. Acesse elevhq.com.",
     },
     {
       icon: MoreVertical,
@@ -86,7 +86,7 @@ const installSteps: Record<Platform, Step[]> = {
     {
       icon: Chrome,
       text: "Abra o Chrome, Edge ou Brave",
-      detail: "Acesse dev.elevhq.com em um navegador compatível com PWA.",
+      detail: "Acesse elevhq.com em um navegador compatível com PWA.",
     },
     {
       icon: Download,

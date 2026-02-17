@@ -35,7 +35,7 @@ export function SupportSection() {
               />
               <FaqItem
                 question="Posso usar em mais de um dispositivo?"
-                answer="Sim! Basta acessar dev.elevhq.com e fazer login com a mesma conta em qualquer dispositivo. Seus dados são sincronizados automaticamente."
+                answer="Sim! Basta acessar elevhq.com e fazer login com a mesma conta em qualquer dispositivo. Seus dados são sincronizados automaticamente."
               />
               <FaqItem
                 question="E se meu e-mail da compra for diferente da conta?"
@@ -87,7 +87,7 @@ export function SupportSection() {
               Tudo pronto? Acesse o <ElevBrand /> agora e comece sua evolução!
             </p>
             <a
-              href="https://dev.elevhq.com"
+              href="https://elevhq.com"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-xl gradient-cta text-white font-semibold text-lg hover:opacity-90 transition-opacity glow animate-pulse-glow"
