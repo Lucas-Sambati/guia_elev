@@ -3,6 +3,7 @@ import { StepsSection } from "@/components/StepsSection";
 import { InstallGuide } from "@/components/InstallGuide";
 import { AccountSection } from "@/components/AccountSection";
 import { FeaturesPreview } from "@/components/FeaturesPreview";
+import { InstagramSection } from "@/components/InstagramSection";
 import { SupportSection } from "@/components/SupportSection";
 import { Footer } from "@/components/Footer";
 
@@ -15,6 +16,7 @@ function App() {
         <InstallGuide />
         <AccountSection />
         <FeaturesPreview />
+        <InstagramSection />
         <SupportSection />
       </main>
       <Footer />
